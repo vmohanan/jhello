@@ -11,4 +11,4 @@ RUN javac HelloWorld.java
 
 #ENTRYPOINT ["java", "-cp", "bin", "HelloWorld"]
 
-CMD ["java", "JavaHelloWorld.java"]
+CMD ["java", "HelloWorld.java"]
